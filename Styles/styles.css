@@ -1,0 +1,29 @@
+section.Title {
+    display: flexbox;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+.Titletext {
+    font-family: 'Inconsolata';
+    font-size: 22px;
+    text-align: center;
+}
+.name {
+    color: #F07178;
+
+}
+.name2 {
+    color: #C792EA;
+}
+.name3 {
+    color: #C3E88D;
+}
+#cursor {
+    font-size: 22px;
+}
+
+body{
+    background-color: #263238;
+    color: #EEFFFF;
+}
