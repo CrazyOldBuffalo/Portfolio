@@ -27,3 +27,46 @@ body{
     background-color: #263238;
     color: #EEFFFF;
 }
+.languageContainer {
+    align-items: center;
+    width: 80%;
+    background-color: #EEFFFF;
+}
+.language {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EEFFFF;
+}
+.css{
+    width: 60%;
+    background-color: #C3E88D;
+}
+.python {
+    width: 60%;
+    background-color: #C3E88D;
+}
+.html{
+    width: 70%;
+    background-color: #C792EA;
+}
+.java{
+    width: 30%;
+    background-color: #F07178;
+}
+.scss{
+    width: 30%;
+    background-color: #F07178;
+}
+.c{
+    width: 30%;
+    background-color: #F07178;
+}
+.cplus{
+    width: 50%;
+    background-color: #C792EA;
+}
+.javaScript{
+    width: 50%;
+    background-color: #C792EA;
+}
