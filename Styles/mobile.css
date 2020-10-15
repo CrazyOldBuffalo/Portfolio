@@ -1,0 +1,25 @@
+/* Main Styling for Website */
+body {
+  font-family: inconsolata;
+  color: #EEFFFF;
+  background-color: #263238;
+}
+
+/* Styling for Syntax */
+.syntax1 {
+  color: #F07178;
+}
+
+.syntax2 {
+  color: #C792EA;
+}
+
+.syntax3 {
+  color: #C3E88D;
+}
+
+.cursor {
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=mobile.css.map */

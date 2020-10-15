@@ -1,7 +1,55 @@
-$mainfont: Inconsolas;
-$mainfontcolour: #EEEFFF;
-$mainbodycolour: #263238;
-$syntaxcolour1: #F07178;
-$syntaxcolour2: #C792EA;
-$syntaxcolour3: #C3E88D;
+$primaryfont: inconsolata;
+$backgroundcolor: #263238;
+$primarycolor: #EEFFFF;
+$syntax1: #F07178;
+$syntax2: #C792EA;
+$syntax3: #C3E88D;
 
+$bannerFontSize: 28px; 
+
+/* Main Styling for Website */
+body {
+    font-family: $primaryfont;
+    color: $primarycolor;
+    background-color: $backgroundcolor;
+}
+.bannerText {
+    font-size: $bannerFontSize;
+    padding: 5px;
+    margin: 5px;
+}
+.bannerButton {
+    $explorebuttoncolor: #569CD6;
+    $explorebutton: 1px solid $primarycolor;
+
+    font-family: $primaryfont;
+    padding: 10px;
+    text-align: center;
+    border: $explorebutton;
+    color: $primarycolor;
+    background-color: transparent;
+    font-size: $bannerFontSize;
+
+    &:hover {
+        border: $explorebutton;
+        background-color: $primarycolor;
+        color: $backgroundcolor;
+    }
+}
+
+
+/* Styling for Syntax */
+.syntax1 {
+    color: $syntax1;
+}
+.syntax2 {
+    color:$syntax2;
+}
+.syntax3 {
+    color:$syntax3;
+}
+
+/* Styling for the cursor */
+.cursor {
+    font-size: 28px;
+}
