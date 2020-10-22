@@ -1,25 +1,56 @@
-/* Main Styling for Website */
 body {
-  font-family: inconsolata;
-  color: #EEFFFF;
-  background-color: #263238;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styling for Syntax */
 .syntax1 {
-  color: #F07178;
-}
-
-.syntax2 {
-  color: #C792EA;
-}
-
-.syntax3 {
   color: #C3E88D;
 }
 
-.cursor {
-  font-size: 28px;
+.syntax2 {
+  color: #FF9CAC;
+}
+
+.syntax3 {
+  color: #C792EA;
+}
+
+.banner {
+  background-color: #212121;
+  width: 100vw;
+  height: 100vh;
+  max-height: 812px;
+  display: flex;
+}
+
+.bannerTextContainer {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  top: 20%;
+}
+
+.bannerText h1 {
+  margin: auto;
+  font-family: Inconsolata;
+  color: #EEFFFF;
+  font-size: 16px;
+  width: 60%;
+  text-align: center;
+}
+
+.bannerButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bannerButton {
+  padding: 5px;
+  margin: 5px;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=mobile.css.map */
