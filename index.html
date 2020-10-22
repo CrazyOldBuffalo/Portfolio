@@ -9,9 +9,11 @@
     <meta name="author" content="Tomasz Boberek">
     
     <!-- StyleSheet -->
-    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/mobile.css">
+    <link rel="stylesheet" href="Styles/styles.css" media="screen and (min-width: 720px)">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    
 
     <!-- Website title -->
     <title>Portfolio || Homepage </title>
@@ -20,9 +22,12 @@
     <!-- Banner at top of page -->
     <section class="banner">
         <div class="bannerContainer">
-            <h1>Greetings! I'm <span class="name">Tom</span> a UK based <span class="name2">Software and Web Developer</span>, studying at <span class="name3">Sheffield Hallam University</span>. Take a look at my <span class="name">skills,</span><span class="name2"> projects </span> and <span class="name3">experience!</span><span id="cursor">|</span></h1>
-
-            <button type="button" class=""> Explore! </button>
+            <div class="bannerTextContainer">
+                <div class="bannerText">Greetings! I'm <span class="syntax1">Tom</span> a UK based <span class="syntax2">Software and Web Developer</span>, studying at <span class="syntax3">Sheffield Hallam University</span>. Take a look at my <span class="syntax1">skills,</span><span class="syntax2"> projects </span> and <span class="syntax3">experience!</span><span id="cursor">|</span></div>
+            </div>
+            <div class="bannerButtonContainer">
+                <button type="button" class="bannerButton"> Explore! </button>
+            </div>
         </div>
     </section>
 
@@ -84,7 +89,9 @@
             </div>
         </div>
     </section>
+    <section class="Education & Experience">
 
+    </section>
 
     <!-- Scripts Section -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
