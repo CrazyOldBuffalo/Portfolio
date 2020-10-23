@@ -25,6 +25,7 @@ body {
   height: 100vh;
   max-height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 
 .bannerTextContainer {
@@ -32,13 +33,10 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
   height: 20rem;
-  top: 10vh;
 }
 
 .bannerText h1 {
-  flex-shrink: 0;
   margin: auto;
   font-family: Inconsolata;
   color: #EEFFFF;
@@ -49,13 +47,20 @@ body {
 
 .bannerButtonContainer {
   display: flex;
+  padding: 5px;
+}
+
+.button {
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .bannerButton {
   background-color: transparent;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  color: #EEFFFF;
+  border: 1px solid #EEFFFF;
   font-size: 20px;
 }
 
