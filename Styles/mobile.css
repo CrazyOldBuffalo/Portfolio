@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .syntax1 {
   color: #C3E88D;
 }
