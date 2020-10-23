@@ -49,11 +49,13 @@ body {
     padding: 5px;
 }
 .button {
-    background-color: transparent;
-    padding: 10px;
-    color: $mainfontcolor;
-    border: $buttonborder;
-    font-size: $buttonfontsize;
-    font-family: $primaryfont;
-    border-radius: 5%;
+    button{
+        background-color: transparent;
+        padding: 10px;
+        color: $mainfontcolor;
+        border: $buttonborder;
+        font-size: $buttonfontsize;
+        font-family: $primaryfont;
+        border-radius: 5%;
+    }
 }
