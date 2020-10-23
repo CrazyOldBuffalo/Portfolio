@@ -4,7 +4,7 @@ $syntax2:  #FF9CAC;
 $syntax3:   #C792EA;
 $mainBackground: #212121;
 $mainfontcolor: #EEFFFF;
-$mobileheadingsize: 16px;
+$mobileheadingsize: 20px;
 
 
 body {
@@ -35,11 +35,12 @@ body {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    height: 50%;
-    top: 20%;
+    height: 20rem;
+    top: 10vh;
 }
 .bannerText {
     h1 {
+        flex-shrink: 0;
         margin:auto;
         font-family: $primaryfont;
         color: $mainfontcolor;
@@ -52,10 +53,12 @@ body {
     display: flex;
     align-items: center;
 
+
 }
 
 .bannerButton {
+    background-color: transparent;
     padding: 5px;
     margin: 5px;
-    font-size: 12px;
+    font-size: 20px;
 }
