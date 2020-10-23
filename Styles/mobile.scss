@@ -6,7 +6,9 @@ $mainBackground: #212121;
 $mainfontcolor: #EEFFFF;
 $mobileheadingsize: 20px;
 
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ body {
     background-color: $mainBackground;
     width: 100vw;
     height: 100vh;
-    max-height: 812px;
+    max-height: 100vh;
     display: flex;
 
 }
