@@ -1,30 +1,61 @@
-$primaryfont: inconsolata;
-$backgroundcolor: #263238;
-$primarycolor: #EEFFFF;
-$syntax1: #F07178;
-$syntax2: #C792EA;
-$syntax3: #C3E88D;
+$primaryfont: Inconsolata;
+$syntax1: #C3E88D;
+$syntax2:  #FF9CAC;
+$syntax3:   #C792EA;
+$mainBackground: #212121;
+$mainfontcolor: #EEFFFF;
+$mobileheadingsize: 16px;
 
-/* Main Styling for Website */
+
 body {
-    font-family: $primaryfont;
-    color: $primarycolor;
-    background-color: $backgroundcolor;
+    margin: 0;
+    padding: 0;
 }
-
-
-/* Styling for Syntax */
 .syntax1 {
     color: $syntax1;
 }
 .syntax2 {
-    color:$syntax2;
+    color: $syntax2;
 }
 .syntax3 {
-    color:$syntax3;
+    color: $syntax3;
 }
 
+.banner {
+    background-color: $mainBackground;
+    width: 100vw;
+    height: 100vh;
+    max-height: 812px;
+    display: flex;
 
-.cursor {
-    font-size: 28px;
+}
+.bannerTextContainer {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    top: 20%;
+}
+.bannerText {
+    h1 {
+        margin:auto;
+        font-family: $primaryfont;
+        color: $mainfontcolor;
+        font-size: $mobileheadingsize;
+        width: 60%;
+        text-align: center;
+    }
+}
+.bannerButtonContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.bannerButton {
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
 }
