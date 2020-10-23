@@ -27,9 +27,12 @@ body {
 
 .banner {
     display: flex;
+    flex-basis: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: $mainBackground;
     width: 100vw;
     height: 100vh;
@@ -46,10 +49,9 @@ body {
     text-align: center;
 }
 .bannerButtonContainer {
-    padding: 5px;
+    padding: 10px;
 }
 .button {
-    button{
         background-color: transparent;
         padding: 10px;
         color: $mainfontcolor;
@@ -57,5 +59,7 @@ body {
         font-size: $buttonfontsize;
         font-family: $primaryfont;
         border-radius: 5%;
-    }
+}
+.cursor {
+    font-size: 1.28rem;
 }

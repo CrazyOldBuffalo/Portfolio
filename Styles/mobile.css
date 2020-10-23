@@ -21,9 +21,12 @@ body {
 
 .banner {
   display: flex;
+  flex-basis: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   background-color: #212121;
   width: 100vw;
   height: 100vh;
@@ -43,10 +46,10 @@ body {
 }
 
 .bannerButtonContainer {
-  padding: 5px;
+  padding: 10px;
 }
 
-.button button {
+.button {
   background-color: transparent;
   padding: 10px;
   color: #EEFFFF;
@@ -54,6 +57,10 @@ body {
   font-size: 1.28rem;
   font-family: Inconsolata;
   border-radius: 5%;
+}
+
+.cursor {
+  font-size: 1.28rem;
 }
 
 /*# sourceMappingURL=mobile.css.map */
