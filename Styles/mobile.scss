@@ -5,10 +5,9 @@ $syntax3:   #C792EA;
 $mainBackground: #212121;
 $mainfontcolor: #EEFFFF;
 $mobileheadingsize: 20px;
+$buttonfontsize: 20px;
+$buttonborder: 1px solid $mainfontcolor;
 
-* {
-    box-sizing: border-box;
-}
 body {
     margin: 0;
     padding: 0;
@@ -27,25 +26,16 @@ body {
     background-color: $mainBackground;
     width: 100vw;
     height: 100vh;
-    max-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
 }
 .bannerTextContainer {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 20rem;
 }
 .bannerText {
     h1 {
-        margin:auto;
+        padding: 10px;
+        margin: 0;
         font-family: $primaryfont;
         color: $mainfontcolor;
         font-size: $mobileheadingsize;
-        width: 60%;
         text-align: center;
     }
 }
@@ -63,6 +53,8 @@ body {
     background-color: transparent;
     padding: 10px;
     color: $mainfontcolor;
-    border: 1px solid $mainfontcolor;
-    font-size: 20px;
+    border: $buttonborder;
+    font-size: $buttonfontsize;
+    font-family: $primaryfont;
+    border-radius: 5%;
 }
