@@ -4,8 +4,8 @@ $syntax2:  #FF9CAC;
 $syntax3:   #C792EA;
 $mainBackground: #212121;
 $mainfontcolor: #EEFFFF;
-$mobileheadingsize: 20px;
-$buttonfontsize: 20px;
+$mobileheadingsize: 1.28em;
+$buttonfontsize: 1.28rem;
 $buttonborder: 1px solid $mainfontcolor;
 
 body {
@@ -26,34 +26,29 @@ body {
 }
 
 .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: $mainBackground;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 .bannerTextContainer {
-
+    margin: 0;
 }
 .bannerText {
-    h1 {
-        padding: 10px;
-        margin: 0;
-        font-family: $primaryfont;
-        color: $mainfontcolor;
-        font-size: $mobileheadingsize;
-        text-align: center;
-    }
+    margin: 0;
+    padding: 10px;
+    font-family: $primaryfont;
+    color: $mainfontcolor;
+    font-size: $mobileheadingsize;
+    text-align: center;
 }
 .bannerButtonContainer {
-    display: flex;
     padding: 5px;
-
 }
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.bannerButton {
     background-color: transparent;
     padding: 10px;
     color: $mainfontcolor;

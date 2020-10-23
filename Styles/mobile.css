@@ -20,37 +20,38 @@ body {
 }
 
 .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #212121;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
-.bannerText h1 {
-  padding: 10px;
+.bannerTextContainer {
   margin: 0;
+}
+
+.bannerText {
+  margin: 0;
+  padding: 10px;
   font-family: Inconsolata;
   color: #EEFFFF;
-  font-size: 20px;
+  font-size: 1.28em;
   text-align: center;
 }
 
 .bannerButtonContainer {
-  display: flex;
   padding: 5px;
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bannerButton {
   background-color: transparent;
   padding: 10px;
   color: #EEFFFF;
   border: 1px solid #EEFFFF;
-  font-size: 20px;
+  font-size: 1.28rem;
   font-family: Inconsolata;
   border-radius: 5%;
 }
