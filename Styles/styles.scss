@@ -1,55 +1,81 @@
-$primaryfont: inconsolata;
-$backgroundcolor: #263238;
-$primarycolor: #EEFFFF;
-$syntax1: #F07178;
-$syntax2: #C792EA;
-$syntax3: #C3E88D;
+$primaryfont: Inconsolata;
+$syntax1: #C3E88D;
+$syntax2:  #FF9CAC;
+$syntax3:   #C792EA;
+$mainBackground: #212121;
+$mainfontcolor: #EEFFFF;
+$mobileheadingsize: 1.28em;
+$buttonfontsize: 1.28rem;
+$buttonborder: 1px solid $mainfontcolor;
+$aboutcontenttitlefontsize: 1.1rem;
 
-$bannerFontSize: 28px; 
-
-/* Main Styling for Website */
 body {
-    font-family: $primaryfont;
-    color: $primarycolor;
-    background-color: $backgroundcolor;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-.bannerText {
-    font-size: $bannerFontSize;
-    padding: 5px;
-    margin: 5px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.bannerButton {
-    $explorebuttoncolor: #569CD6;
-    $explorebutton: 1px solid $primarycolor;
-
-    font-family: $primaryfont;
-    padding: 10px;
-    text-align: center;
-    border: $explorebutton;
-    color: $primarycolor;
-    background-color: transparent;
-    font-size: $bannerFontSize;
-
-    &:hover {
-        border: $explorebutton;
-        background-color: $primarycolor;
-        color: $backgroundcolor;
-    }
-}
-
-
-/* Styling for Syntax */
 .syntax1 {
     color: $syntax1;
 }
 .syntax2 {
-    color:$syntax2;
+    color: $syntax2;
 }
 .syntax3 {
-    color:$syntax3;
+    color: $syntax3;
 }
 
-/* Styling for the cursor */
+.banner {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: $mainBackground;
+    width: 100vw;
+    height: 100vh;
+}
+.bannerTextContainer {
+    margin: 0;
+}
+.bannerText {
+    font-family: $primaryfont;
+    color: $mainfontcolor;
+    font-size: $mobileheadingsize;
+    text-align: center;
+}
+.bannerButtonContainer {
+    padding: 10px;
+}
+.button {
+        background-color: transparent;
+        padding: 10px;
+        color: $mainfontcolor;
+        border: $buttonborder;
+        font-size: $buttonfontsize;
+        font-family: $primaryfont;
+        border-radius: 5%;
+}
 .cursor {
-    font-size: 28px;
+    font-size: 1.28rem;
+}
+
+.aboutContentContainer{
+    background-color: $mainBackground;
+}
+.aboutContentRow {
+    display: flex;
+    flex-direction: row;
+}
+.aboutContent {
+    flex-basis: 40%;
+}
+.aboutContentTitle {
+    font-size: $aboutcontenttitlefontsize;
 }

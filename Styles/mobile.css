@@ -1,9 +1,16 @@
+html {
+  width: 100vw;
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,7 +28,7 @@ body {
 
 .banner {
   display: flex;
-  flex-basis: 100%;
+  flex-basis: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,15 +37,15 @@ body {
   background-color: #212121;
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
 }
 
 .bannerTextContainer {
   margin: 0;
 }
 
-.bannerText {
-  margin: 0;
-  padding: 10px;
+h1.bannerText {
+  padding: 0;
   font-family: Inconsolata;
   color: #EEFFFF;
   font-size: 1.28em;
@@ -61,6 +68,24 @@ body {
 
 .cursor {
   font-size: 1.28rem;
+}
+
+.about {
+  width: 100vw;
+  background-color: #212121;
+}
+
+.aboutContentRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutContent {
+  flex-basis: 40%;
+}
+
+.aboutContentTitle {
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=mobile.css.map */

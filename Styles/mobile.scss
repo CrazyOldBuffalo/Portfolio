@@ -7,12 +7,16 @@ $mainfontcolor: #EEFFFF;
 $mobileheadingsize: 1.28em;
 $buttonfontsize: 1.28rem;
 $buttonborder: 1px solid $mainfontcolor;
+$aboutcontenttitlefontsize: 1.1rem;
 
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .syntax1 {
@@ -41,8 +45,6 @@ body {
     margin: 0;
 }
 .bannerText {
-    margin: 0;
-    padding: 10px;
     font-family: $primaryfont;
     color: $mainfontcolor;
     font-size: $mobileheadingsize;
@@ -62,4 +64,21 @@ body {
 }
 .cursor {
     font-size: 1.28rem;
+}
+.about {
+    width: 100vw;
+    background-color: $mainBackground;
+}
+.aboutContentContainer{
+    
+}
+.aboutContentRow {
+    display: flex;
+    flex-direction: row;
+}
+.aboutContent {
+    flex-basis: 40%;
+}
+.aboutContentTitle {
+    font-size: $aboutcontenttitlefontsize;
 }

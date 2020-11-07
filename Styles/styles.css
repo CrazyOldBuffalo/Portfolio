@@ -1,47 +1,85 @@
-/* Main Styling for Website */
 body {
-  font-family: inconsolata;
-  color: #EEFFFF;
-  background-color: #263238;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.bannerText {
-  font-size: 28px;
-  padding: 5px;
-  margin: 5px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bannerButton {
-  font-family: inconsolata;
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #EEFFFF;
-  color: #EEFFFF;
-  background-color: transparent;
-  font-size: 28px;
-}
-.bannerButton:hover {
-  border: 1px solid #EEFFFF;
-  background-color: #EEFFFF;
-  color: #263238;
-}
-
-/* Styling for Syntax */
 .syntax1 {
-  color: #F07178;
-}
-
-.syntax2 {
-  color: #C792EA;
-}
-
-.syntax3 {
   color: #C3E88D;
 }
 
-/* Styling for the cursor */
+.syntax2 {
+  color: #FF9CAC;
+}
+
+.syntax3 {
+  color: #C792EA;
+}
+
+.banner {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #212121;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bannerTextContainer {
+  margin: 0;
+}
+
+.bannerText {
+  font-family: Inconsolata;
+  color: #EEFFFF;
+  font-size: 1.28em;
+  text-align: center;
+}
+
+.bannerButtonContainer {
+  padding: 10px;
+}
+
+.button {
+  background-color: transparent;
+  padding: 10px;
+  color: #EEFFFF;
+  border: 1px solid #EEFFFF;
+  font-size: 1.28rem;
+  font-family: Inconsolata;
+  border-radius: 5%;
+}
+
 .cursor {
-  font-size: 28px;
+  font-size: 1.28rem;
+}
+
+.about {
+  width: 100vw;
+  background-color: #212121;
+}
+
+.aboutContentRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutContent {
+  flex-basis: 40%;
+}
+
+.aboutContentTitle {
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
