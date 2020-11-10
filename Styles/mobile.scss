@@ -79,12 +79,13 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1 0 100%;
 }
 .aboutContent {
-    flex: 0 0 33.333333%;
     justify-content: center;
     padding: 10px;
 }
+
 .aboutContentTitle {
     font-size: $aboutcontenttitlefontsize;
     font-family: $primaryfont;
