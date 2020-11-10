@@ -6,6 +6,7 @@ $mainBackground: #212121;
 $mainfontcolor: #EEFFFF;
 $mobileheadingsize: 1.28em;
 $buttonfontsize: 1.28rem;
+$mobilefontsize: 1.1rem;
 $buttonborder: 1px solid $mainfontcolor;
 $aboutcontenttitlefontsize: 1.1rem;
 
@@ -70,15 +71,35 @@ body {
     background-color: $mainBackground;
 }
 .aboutContentContainer{
-    
+    padding: 10px;
 }
 .aboutContentRow {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .aboutContent {
-    flex-basis: 40%;
+    flex: 0 0 33.333333%;
+    justify-content: center;
+    padding: 10px;
 }
 .aboutContentTitle {
     font-size: $aboutcontenttitlefontsize;
+    font-family: $primaryfont;
+    text-align: center;
+    color: $syntax1;
+}
+.ContentTitle {
+    font-family: $primaryfont;
+    padding: 10px;
+    color: $syntax2;
+    font-size: $mobileheadingsize;
+}
+.ContentContent {
+    font-family: $primaryfont;
+    color: $mainfontcolor;
+    padding: 10px;
+}
+.fa-3 {
+    font-size: 6rem;
 }

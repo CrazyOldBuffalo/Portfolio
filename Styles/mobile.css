@@ -1,11 +1,7 @@
-html {
-  width: 100vw;
-  max-width: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 * {
@@ -28,7 +24,7 @@ body {
 
 .banner {
   display: flex;
-  flex-basis: 90%;
+  flex-basis: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -37,15 +33,13 @@ body {
   background-color: #212121;
   width: 100vw;
   height: 100vh;
-  max-width: 100%;
 }
 
 .bannerTextContainer {
   margin: 0;
 }
 
-h1.bannerText {
-  padding: 0;
+.bannerText {
   font-family: Inconsolata;
   color: #EEFFFF;
   font-size: 1.28em;
@@ -75,17 +69,44 @@ h1.bannerText {
   background-color: #212121;
 }
 
+.aboutContentContainer {
+  padding: 10px;
+}
+
 .aboutContentRow {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .aboutContent {
-  flex-basis: 40%;
+  flex: 0 0 33.333333%;
+  justify-content: center;
+  padding: 10px;
 }
 
 .aboutContentTitle {
   font-size: 1.1rem;
+  font-family: Inconsolata;
+  text-align: center;
+  color: #C3E88D;
+}
+
+.ContentTitle {
+  font-family: Inconsolata;
+  padding: 10px;
+  color: #FF9CAC;
+  font-size: 1.28em;
+}
+
+.ContentContent {
+  font-family: Inconsolata;
+  color: #EEFFFF;
+  padding: 10px;
+}
+
+.fa-3 {
+  font-size: 6rem;
 }
 
 /*# sourceMappingURL=mobile.css.map */
