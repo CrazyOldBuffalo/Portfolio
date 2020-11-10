@@ -44,8 +44,10 @@ body {
 }
 .bannerTextContainer {
     margin: 0;
+    padding: 20px;
 }
 .bannerText {
+    padding: 20px;
     font-family: $primaryfont;
     color: $mainfontcolor;
     font-size: $mobileheadingsize;

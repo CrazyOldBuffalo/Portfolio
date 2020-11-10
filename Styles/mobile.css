@@ -37,9 +37,11 @@ body {
 
 .bannerTextContainer {
   margin: 0;
+  padding: 20px;
 }
 
 .bannerText {
+  padding: 20px;
   font-family: Inconsolata;
   color: #EEFFFF;
   font-size: 1.28em;
